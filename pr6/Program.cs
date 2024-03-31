@@ -13,6 +13,9 @@ namespace pr6
             Console.Write("Введите значения параметра x = ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
+            double F = (Math.Sin(x) + Math.Cos(x)) / 2;
+            Console.WriteLine($"Для значения х = {x}, F = {F}.");
+            Console.ReadKey();
         }
     }
 }
